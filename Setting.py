@@ -1,9 +1,9 @@
 from appium import webdriver
 import os
 
-appium_server = os.environ.get("APPIUM_SERVER", "http://localhost:4732")
+appium_server = os.environ.get("APPIUM_SERVER", "http://localhost:4723")
 platform_version = os.environ.get("PLATFORM_VERSION", "15.5")
-app_build_path = os.environ.get("APP_PATH", None)
+app_build_path = os.environ.get("APP_PATH", "/Users/lukmanhardian/Desktop/Source/iseng/fastlane-swift-ios/output/Build/Products/Debug-iphonesimulator/FirebaseStarterApp.app")
 device_name = os.environ.get("DEVICE_NAME", "iPhone 13 Pro Max")
 
 desired_caps = {
